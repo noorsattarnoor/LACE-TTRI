@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Never publish recovery secrets or plaintext
+confidential_recovery_metadata*.json
+SECRET_CRM*.json
+*secret*key*.json
+recovered_text.txt
+
+# Generated experimental outputs
+*.npy
+LACE_TTRI_*_Output.zip
+encrypted_image.png
+recovered_cipher.png
+cover.png
+fake_color.png
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
